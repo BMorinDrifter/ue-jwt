@@ -7,11 +7,11 @@ Purpose
 Simple Jwt code written in idiomatic Unreal Engine C++ for reading 
 [Json Web Tokens](https://jwt.io/).  Originally written for Superior when interactions 
 with the latest Steamworks SDK caused problems with jwtcpp due to usage of exceptions 
-to capture routine errors conditions.
+to capture routine error conditions.
 
 This library does not use C++ exceptions and leverages the existing code in Unreal
-Engine for working with Json to reduce code/memory bloat from pulling in another
-ecosystem.
+Engine for working with Json and OpenSSL to reduce code/memory bloat from pulling in 
+the dependency chain of another ecosystem.
 
 License
 -------
