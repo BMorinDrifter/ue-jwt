@@ -13,18 +13,6 @@ This library does not use C++ exceptions and leverages the existing code in Unre
 Engine for working with Json and OpenSSL to reduce code/memory bloat from pulling in 
 the dependency chain of another ecosystem.
 
-License
--------
-
-This project is licensed under the Apache-2.0 License.
-
-Contribution
-------------
-
-Unless you explicitly state otherwise, any contribution intentionally submitted
-for inclusion in the work by you, as defined in the Apache-2.0 license, shall be
-licensed as above, without any additional terms or conditions.
-
 Credit
 ------
 
